@@ -6,8 +6,8 @@ url_style = absolute
 # `name` in alternatives should be in english. This is used for translations
 [alternatives.en]
 name = English
-primary = yes
 locale = en_US
+url_prefix = /en/
 
 [alternatives.ar]
 name = Arabic
@@ -76,7 +76,7 @@ locale = pl_PL
 
 [alternatives.fa]
 name = Farsi
-url_prefix = /fa_IR/
+primary = yes
 locale = fa_IR
 
 [packages]
